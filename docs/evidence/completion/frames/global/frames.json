@@ -1,0 +1,54 @@
+[
+  {
+    "run_id": "181e0e929c93",
+    "scene_id": "63e9b0eb9fa6b429",
+    "plan_id": "51131280aa2ea4cb",
+    "requested_time": 4.0,
+    "recorded_time": 0.0,
+    "gl_backend": "egl",
+    "recording": "measured_state_playback",
+    "geometry": "visual",
+    "width": 640,
+    "height": 480,
+    "file": "run-0-t-4.png"
+  },
+  {
+    "run_id": "738a3ecbe34f",
+    "scene_id": "63e9b0eb9fa6b429",
+    "plan_id": "bc591a213adb6975",
+    "requested_time": 4.0,
+    "recorded_time": 3.999999999999781,
+    "gl_backend": "egl",
+    "recording": "measured_state_playback",
+    "geometry": "visual",
+    "width": 640,
+    "height": 480,
+    "file": "run-1-t-4.png"
+  },
+  {
+    "run_id": "a8ea3690e658",
+    "scene_id": "63e9b0eb9fa6b429",
+    "plan_id": "51131280aa2ea4cb",
+    "requested_time": 4.0,
+    "recorded_time": 0.0,
+    "gl_backend": "egl",
+    "recording": "measured_state_playback",
+    "geometry": "visual",
+    "width": 640,
+    "height": 480,
+    "file": "run-2-t-4.png"
+  },
+  {
+    "run_id": "83d9970f119e",
+    "scene_id": "63e9b0eb9fa6b429",
+    "plan_id": "2a2765e429111f66",
+    "requested_time": 4.0,
+    "recorded_time": 3.999999999999781,
+    "gl_backend": "egl",
+    "recording": "measured_state_playback",
+    "geometry": "visual",
+    "width": 640,
+    "height": 480,
+    "file": "run-3-t-4.png"
+  }
+]

@@ -1,0 +1,10 @@
+WARNING: The directory '/home/zfy/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing /home/zfy/franka_planning/panda-motion-planning-lab
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: panda-motion-planning-lab
+  Building wheel for panda-motion-planning-lab (pyproject.toml): started
+  Building wheel for panda-motion-planning-lab (pyproject.toml): finished with status 'done'
+  Created wheel for panda-motion-planning-lab: filename=panda_motion_planning_lab-0.1.0-py3-none-any.whl size=5638394 sha256=a8db3b17432d7ef61888aa818a6467981e3ed9d481e8498079a62db77f3dd2d8
+  Stored in directory: /tmp/pip-ephem-wheel-cache-dc3tsci6/wheels/cb/e1/b4/428b50353e09ceb12aab6f06b96ef740dd05df85bd7bf2c003
+Successfully built panda-motion-planning-lab

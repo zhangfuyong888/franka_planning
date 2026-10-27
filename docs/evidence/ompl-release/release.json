@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "wheel": "dist/panda_motion_planning_lab-0.2.1-py3-none-any.whl",
+  "wheel_sha256": "18d16796537d35b75e51b3686f7a42fa5602b408ad5a0f38b67b2fbff4450fb7",
+  "real_ompl_validation": "6 passed, 4 deselected",
+  "full_tests": "45 passed, no skips",
+  "nanobind_leaks": "none observed; subprocess regression checks stderr without disabling diagnostics",
+  "host_gui": "user-confirmed open and successful realtime run 187ced8983e6",
+  "interaction_check": "pending user confirmation"
+}

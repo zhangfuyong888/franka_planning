@@ -1,0 +1,332 @@
+[
+  {
+    "query": 0,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.7,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 3.0,
+      "seed": 42,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "solver_status": "success",
+    "validated": true,
+    "elapsed": 2.150543815999754,
+    "stats": {
+      "backend": "ompl-2.0.1",
+      "implementation": "PRM",
+      "trace_overhead": 3.602800006774487e-05,
+      "build_time": 1.5001172529996438,
+      "query_time": 0.6503670219999549,
+      "prm_mode": "cold",
+      "process_seed": 42,
+      "request_seed": 42,
+      "rng_policy": "process_initialized_once_then_continued",
+      "first_solution_source": "solve_return_observation",
+      "callback_error": "setIntermediateSolutionCallback(): incompatible function arguments. The following argument types are supported:\n    1. setIntermediateSolutionCallback(self, arg: std::function<void (ompl::base::Planner const*, std::vector<ompl::base::State const*, std::allocator<ompl::base::State const*> > const&, ompl::base::Cost)>, /) -> None\n\nInvoked with types: ompl._ompl.base.ProblemDefinition, function",
+      "nodes": 18,
+      "edges": 60,
+      "improvements": [],
+      "prm_build_fraction": 0.5,
+      "interrupted_edges": 3,
+      "budget_overrun": 0.0
+    }
+  },
+  {
+    "query": 0,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.7,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 3.0,
+      "seed": 42,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "solver_status": "success",
+    "validated": true,
+    "elapsed": 2.0279043020000245,
+    "stats": {
+      "backend": "ompl-2.0.1",
+      "implementation": "PRM",
+      "trace_overhead": 3.907800009983475e-05,
+      "build_time": 1.5000297439996757,
+      "query_time": 0.5278084490000765,
+      "prm_mode": "cold",
+      "process_seed": 42,
+      "request_seed": 42,
+      "rng_policy": "process_initialized_once_then_continued",
+      "first_solution_source": "solve_return_observation",
+      "callback_error": "setIntermediateSolutionCallback(): incompatible function arguments. The following argument types are supported:\n    1. setIntermediateSolutionCallback(self, arg: std::function<void (ompl::base::Planner const*, std::vector<ompl::base::State const*, std::allocator<ompl::base::State const*> > const&, ompl::base::Cost)>, /) -> None\n\nInvoked with types: ompl._ompl.base.ProblemDefinition, function",
+      "nodes": 18,
+      "edges": 71,
+      "improvements": [],
+      "prm_build_fraction": 0.5,
+      "interrupted_edges": 1,
+      "budget_overrun": 0.0
+    }
+  },
+  {
+    "query": 1,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.6799999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 3.0,
+      "seed": 43,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "solver_status": "success",
+    "validated": true,
+    "elapsed": 2.067704801999753,
+    "stats": {
+      "backend": "ompl-2.0.1",
+      "implementation": "PRM",
+      "trace_overhead": 3.765700012081652e-05,
+      "build_time": 1.500062187000367,
+      "query_time": 0.5675766700001077,
+      "prm_mode": "cold",
+      "process_seed": 42,
+      "request_seed": 43,
+      "rng_policy": "process_initialized_once_then_continued",
+      "first_solution_source": "solve_return_observation",
+      "callback_error": "setIntermediateSolutionCallback(): incompatible function arguments. The following argument types are supported:\n    1. setIntermediateSolutionCallback(self, arg: std::function<void (ompl::base::Planner const*, std::vector<ompl::base::State const*, std::allocator<ompl::base::State const*> > const&, ompl::base::Cost)>, /) -> None\n\nInvoked with types: ompl._ompl.base.ProblemDefinition, function",
+      "nodes": 18,
+      "edges": 76,
+      "improvements": [],
+      "prm_build_fraction": 0.5,
+      "interrupted_edges": 3,
+      "budget_overrun": 0.0
+    }
+  },
+  {
+    "query": 1,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.6799999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 3.0,
+      "seed": 43,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "solver_status": "success",
+    "validated": true,
+    "elapsed": 0.4291782059999605,
+    "stats": {
+      "backend": "ompl-2.0.1",
+      "implementation": "PRM",
+      "trace_overhead": 4.708899996330729e-05,
+      "build_time": 0.0,
+      "query_time": 0.42910205099997256,
+      "prm_mode": "warm",
+      "process_seed": 42,
+      "request_seed": 43,
+      "rng_policy": "process_initialized_once_then_continued",
+      "first_solution_source": "solve_return_observation",
+      "callback_error": "setIntermediateSolutionCallback(): incompatible function arguments. The following argument types are supported:\n    1. setIntermediateSolutionCallback(self, arg: std::function<void (ompl::base::Planner const*, std::vector<ompl::base::State const*, std::allocator<ompl::base::State const*> > const&, ompl::base::Cost)>, /) -> None\n\nInvoked with types: ompl._ompl.base.ProblemDefinition, function",
+      "nodes": 21,
+      "edges": 91,
+      "improvements": [],
+      "prm_build_fraction": 0.5,
+      "interrupted_edges": 0,
+      "budget_overrun": 0.0
+    }
+  },
+  {
+    "query": 2,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.6599999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 3.0,
+      "seed": 44,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "solver_status": "success",
+    "validated": true,
+    "elapsed": 1.9603163419997145,
+    "stats": {
+      "backend": "ompl-2.0.1",
+      "implementation": "PRM",
+      "trace_overhead": 3.482300007817685e-05,
+      "build_time": 1.500136619999921,
+      "query_time": 0.46011859500003993,
+      "prm_mode": "cold",
+      "process_seed": 42,
+      "request_seed": 44,
+      "rng_policy": "process_initialized_once_then_continued",
+      "first_solution_source": "solve_return_observation",
+      "callback_error": "setIntermediateSolutionCallback(): incompatible function arguments. The following argument types are supported:\n    1. setIntermediateSolutionCallback(self, arg: std::function<void (ompl::base::Planner const*, std::vector<ompl::base::State const*, std::allocator<ompl::base::State const*> > const&, ompl::base::Cost)>, /) -> None\n\nInvoked with types: ompl._ompl.base.ProblemDefinition, function",
+      "nodes": 15,
+      "edges": 65,
+      "improvements": [],
+      "prm_build_fraction": 0.5,
+      "interrupted_edges": 5,
+      "budget_overrun": 0.0
+    }
+  },
+  {
+    "query": 2,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.6599999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 3.0,
+      "seed": 44,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "solver_status": "success",
+    "validated": true,
+    "elapsed": 0.387756884999817,
+    "stats": {
+      "backend": "ompl-2.0.1",
+      "implementation": "PRM",
+      "trace_overhead": 5.546100010178634e-05,
+      "build_time": 0.0,
+      "query_time": 0.38767237599995497,
+      "prm_mode": "warm",
+      "process_seed": 42,
+      "request_seed": 44,
+      "rng_policy": "process_initialized_once_then_continued",
+      "first_solution_source": "solve_return_observation",
+      "callback_error": "setIntermediateSolutionCallback(): incompatible function arguments. The following argument types are supported:\n    1. setIntermediateSolutionCallback(self, arg: std::function<void (ompl::base::Planner const*, std::vector<ompl::base::State const*, std::allocator<ompl::base::State const*> > const&, ompl::base::Cost)>, /) -> None\n\nInvoked with types: ompl._ompl.base.ProblemDefinition, function",
+      "nodes": 24,
+      "edges": 112,
+      "improvements": [],
+      "prm_build_fraction": 0.5,
+      "interrupted_edges": 0,
+      "budget_overrun": 0.0
+    }
+  }
+]

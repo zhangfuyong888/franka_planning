@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "wheel": "dist/panda_motion_planning_lab-0.2.0-py3-none-any.whl",
+  "sha256": "b1f9569d8111126353fdf4206db260b3245e0990925bd9fcf8f0aa7179f314d3",
+  "tests": "39 passed, 3 skipped (OMPL missing)",
+  "egl_render": "passed; measured-state frames visually inspected",
+  "browser": "not validated; socket restriction",
+  "ompl": "official 2.0.1 bindings source audited; binary integration unavailable"
+}

@@ -1,0 +1,111 @@
+..F                                                                      [100%]
+=================================== FAILURES ===================================
+___________________ test_real_ompl_remaining_algorithms[prm] ___________________
+
+name = 'prm'
+
+    @pytest.mark.skipif(importlib.util.find_spec('ompl') is None, reason='OMPL未安装；需真实绑定验证')
+    @pytest.mark.parametrize('name', ['rrt_star', 'prm'])
+    def test_real_ompl_remaining_algorithms(name):
+        s = make_scene('empty')
+        ctx = build_context(s, Config())
+        alg = create(name, 'ompl')
+        result = alg.plan(request(s, .8), ctx, True)
+>       assert result.status == 'success'
+E       AssertionError: assert 'approximate_solution' == 'success'
+E         
+E         - success
+E         + approximate_solution
+
+tests/test_planning.py:66: AssertionError
+----------------------------- Captured stdout call -----------------------------
+Info:    PRM: Starting planning with 13 states already in datastructure
+Info:    PRM: Created 0 states
+Info:    Using approximate solution, heuristic cost-to-go is 0.000000
+Info:    ProblemDefinition: Adding approximate solution from planner PRM
+=============================== warnings summary ===============================
+tests/test_planning.py::test_real_ompl_integration
+tests/test_planning.py::test_real_ompl_remaining_algorithms[rrt_star]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[prm]
+  /home/zfy/franka_planning/panda-motion-planning-lab/.venv/lib/python3.10/site-packages/qpsolvers/conversions/ensure_sparse_matrices.py:28: SparseConversionWarning: Converted matrix 'P' of your problem to scipy.sparse.csc_matrix to pass it to solver 'osqp'; for best performance, build your matrix as a csc_matrix directly.
+    warnings.warn(
+
+tests/test_planning.py::test_real_ompl_integration
+tests/test_planning.py::test_real_ompl_remaining_algorithms[rrt_star]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[prm]
+  /home/zfy/franka_planning/panda-motion-planning-lab/.venv/lib/python3.10/site-packages/qpsolvers/conversions/ensure_sparse_matrices.py:28: SparseConversionWarning: Converted matrix 'G' of your problem to scipy.sparse.csc_matrix to pass it to solver 'osqp'; for best performance, build your matrix as a csc_matrix directly.
+    warnings.warn(
+
+tests/test_planning.py::test_real_ompl_integration
+tests/test_planning.py::test_real_ompl_integration
+tests/test_planning.py::test_real_ompl_integration
+tests/test_planning.py::test_real_ompl_remaining_algorithms[rrt_star]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[rrt_star]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[rrt_star]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[prm]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[prm]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[prm]
+  /home/zfy/franka_planning/panda-motion-planning-lab/.venv/lib/python3.10/site-packages/osqp/interface.py:405: PendingDeprecationWarning: The default value of raise_error will change to True in the future.
+    warnings.warn(
+
+tests/test_planning.py::test_real_ompl_integration
+tests/test_planning.py::test_real_ompl_integration
+tests/test_planning.py::test_real_ompl_integration
+tests/test_planning.py::test_real_ompl_remaining_algorithms[rrt_star]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[rrt_star]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[rrt_star]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[prm]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[prm]
+tests/test_planning.py::test_real_ompl_remaining_algorithms[prm]
+  /home/zfy/franka_planning/panda-motion-planning-lab/.venv/lib/python3.10/site-packages/osqp/interface.py:73: PendingDeprecationWarning: Direct access to osqp status values will be deprecated. Please use the SolverStatus enum instead.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_planning.py::test_real_ompl_remaining_algorithms[prm] - Ass...
+1 failed, 2 passed, 4 deselected, 24 warnings in 2.99s
+nanobind: leaked 18 instances!
+ - leaked instance 0x596f6aaf4c68 of type "ompl._ompl.geometric.RRTConnect"
+ - leaked instance 0x596f64b50aa8 of type "ompl._ompl.geometric.PRM"
+ - leaked instance 0x7a9915ce5e58 of type "ompl._ompl.base.SpaceInformation"
+ - leaked instance 0x7a9915d437d8 of type "panda_planning.planners.ompl_backend.Validator"
+ - leaked instance 0x7a990a338258 of type "ompl._ompl.base.ProblemDefinition"
+ - leaked instance 0x7a9915b0da48 of type "ompl._ompl.base.PathLengthOptimizationObjective"
+ - leaked instance 0x7a9915d43558 of type "panda_planning.planners.ompl_backend.Validator"
+ - leaked instance 0x7a99e7b903d8 of type "panda_planning.planners.ompl_backend.Validator"
+ - leaked instance 0x7a9915b15018 of type "ompl._ompl.base.ProblemDefinition"
+ - leaked instance 0x7a9915af8788 of type "ompl._ompl.base.RealVectorStateSpace"
+ - leaked instance 0x7a9915af9268 of type "ompl._ompl.base.RealVectorStateSpace"
+ - leaked instance 0x7a990a338938 of type "ompl._ompl.base.ProblemDefinition"
+ - leaked instance 0x7a9915b34b28 of type "ompl._ompl.base.RealVectorStateSpace"
+ - leaked instance 0x7a9915ce5c18 of type "ompl._ompl.base.SpaceInformation"
+ - leaked instance 0x596f569b0e28 of type "ompl._ompl.geometric.RRTstar"
+ - leaked instance 0x7a9915b0df28 of type "ompl._ompl.base.PathLengthOptimizationObjective"
+ - leaked instance 0x7a9915ce5cd8 of type "ompl._ompl.base.SpaceInformation"
+ - leaked instance 0x7a9915b0d708 of type "ompl._ompl.base.PathLengthOptimizationObjective"
+nanobind: leaked 11 types!
+ - leaked type "ompl._ompl.base.ProblemDefinition"
+ - leaked type "ompl._ompl.geometric.RRTstar"
+ - leaked type "ompl._ompl.base.PathLengthOptimizationObjective"
+ - leaked type "ompl._ompl.geometric.RRTConnect"
+ - leaked type "ompl._ompl.base.SpaceInformation"
+ - leaked type "ompl._ompl.base.MotionValidator"
+ - leaked type "ompl._ompl.geometric.PRM"
+ - leaked type "ompl._ompl.base.OptimizationObjective"
+ - leaked type "ompl._ompl.base.StateSpace"
+ - leaked type "ompl._ompl.base.Planner"
+ - ... skipped remainder
+nanobind: leaked 265 functions!
+ - leaked function "hasDefaultProjection"
+ - leaked function "getMaximumExtent"
+ - leaked function "hasSymmetricDistance"
+ - leaked function "setAdmissibleCostToCome"
+ - leaked function "setOrderedSampling"
+ - leaked function "hasExactSolution"
+ - leaked function "setup"
+ - leaked function "hasStartState"
+ - leaked function "copyToReals"
+ - leaked function "setRange"
+ - ... skipped remainder
+nanobind: this is likely caused by a reference counting issue in the binding code.
+See https://nanobind.readthedocs.io/en/latest/refleaks.html

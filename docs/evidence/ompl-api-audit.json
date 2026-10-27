@@ -1,0 +1,44 @@
+{
+  "version": "2.0.1",
+  "tree": "c509861210a63ec962bbec72c52823abc16b102e",
+  "status": "official_2.0.1_binding_source_reviewed_and_real_runtime_tests_passed",
+  "verified_apis": [
+    "SpaceInformation, RealVectorStateSpace.allocState",
+    "MotionValidator(si), checkMotion(a,b)",
+    "PlannerData.getEdges(index) returns list",
+    "PRM.constructRoadmap(PlannerTerminationCondition), clearQuery",
+    "ProblemDefinition.setIntermediateSolutionCallback, PathGeometric.getStates"
+  ],
+  "sources": [
+    {
+      "path": "py-bindings/base/MotionValidator.cpp",
+      "blob": "56550eafc3f0ae0a1e8cbd4e347cbfc9a4dcba51",
+      "url": "https://github.com/ompl/ompl/blob/2.0.1/py-bindings/base/MotionValidator.cpp"
+    },
+    {
+      "path": "py-bindings/base/PlannerData.cpp",
+      "blob": "460686b8316fd24133f45f657fb8f6d784de85d1",
+      "url": "https://github.com/ompl/ompl/blob/2.0.1/py-bindings/base/PlannerData.cpp"
+    },
+    {
+      "path": "py-bindings/base/ProblemDefinition.cpp",
+      "blob": "e39b8b8ed6dd740af580faa41359d81cedaf378c",
+      "url": "https://github.com/ompl/ompl/blob/2.0.1/py-bindings/base/ProblemDefinition.cpp"
+    },
+    {
+      "path": "py-bindings/geometric/PathGeometric.cpp",
+      "blob": "4436aed244906ddf6cfda48c46984452e1f4ba2f",
+      "url": "https://github.com/ompl/ompl/blob/2.0.1/py-bindings/geometric/PathGeometric.cpp"
+    },
+    {
+      "path": "py-bindings/geometric/planners/prm/PRM.cpp",
+      "blob": "5b7b184586c24b3392fb47423d3c76c1830c9b22",
+      "url": "https://github.com/ompl/ompl/blob/2.0.1/py-bindings/geometric/planners/prm/PRM.cpp"
+    }
+  ],
+  "runtime_validation": "ompl-release/panda-validation-021.log",
+  "limitations": [
+    "中间解回调std::function caster未导出；真实记录solve返回的首次解观测时间",
+    "浏览器和MuJoCo宿主机可打开/执行已用户确认；逐项交互仍待确认"
+  ]
+}

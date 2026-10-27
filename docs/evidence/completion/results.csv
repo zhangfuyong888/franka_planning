@@ -1,0 +1,8 @@
+run_id,mode,planner,avoider,planning_status,execution_status,planning_success,execution_success,planning_time,first_solution,execution_time,raw_cost,processed_cost,execution_min_distance,final_error,interventions
+5421d28827bd,local,not_requested,apf,not_requested,guarded_stop,False,False,0.0,,0.4200000000000003,,,0.0021302907008598215,0.3874336366730651,"[{'t': 0.4200000000000003, 'status': 'guarded_stop', 'distance': 0.0021302907008598215, 'solver_status': 'ok'}]"
+2279ec962a82,local,not_requested,distance_qp,not_requested,success,False,True,0.0,,3.619999999999823,,,0.019162609251114876,0.007346309027295453,[]
+56426737490e,local,not_requested,none,not_requested,guarded_stop,False,False,0.0,,0.3800000000000003,,,0.0015410828770724416,0.3913477502241648,"[{'t': 0.3800000000000003, 'status': 'guarded_stop', 'distance': 0.0015410828770724416, 'solver_status': 'ok'}]"
+181e0e929c93,global,direct,none,blocked,not_executed,False,False,0.001320422000048893,,,,,,,[]
+83d9970f119e,global,prm,none,success,success,True,True,2.3506584170000906,2.3506526910000503,8.159999999999394,6.984032139554452,3.7538712988966765,0.019109186863450048,0.0005688978740291399,[]
+738a3ecbe34f,global,rrt_connect,none,success,success,True,True,0.06389821599998413,0.0638949159999811,8.769999999999598,7.359546923609893,4.0155367034997305,0.01913242541865222,0.0006806370263150296,[]
+a8ea3690e658,global,rrt_star,none,timeout,not_executed,False,False,3.0047486500000105,,,,,,,[]

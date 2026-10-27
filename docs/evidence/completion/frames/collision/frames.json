@@ -1,0 +1,15 @@
+[
+  {
+    "run_id": "738a3ecbe34f",
+    "scene_id": "63e9b0eb9fa6b429",
+    "plan_id": "bc591a213adb6975",
+    "requested_time": 4.0,
+    "recorded_time": 3.999999999999781,
+    "gl_backend": "egl",
+    "recording": "measured_state_playback",
+    "geometry": "collision",
+    "width": 960,
+    "height": 720,
+    "file": "run-0-t-4.png"
+  }
+]

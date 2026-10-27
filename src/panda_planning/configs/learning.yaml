@@ -1,0 +1,5 @@
+budget: 5.0
+snapshot_interval: 0.25    # 真实搜索图快照秒
+shortcut_attempts: 60
+graph_limit: 250           # 仅显示抽样；不改变完整指标
+backend: motion_planners

@@ -1,0 +1,41 @@
+[
+  {
+    "run_id": "a7a678d142f9",
+    "scene_id": "701d880e8dc6b545",
+    "plan_id": "b655535fbafc16b7",
+    "requested_time": 8.0,
+    "recorded_time": 0.3800000000000003,
+    "gl_backend": "egl",
+    "recording": "measured_state_playback",
+    "geometry": "visual",
+    "width": 640,
+    "height": 480,
+    "file": "run-0-t-8.png"
+  },
+  {
+    "run_id": "c123c6cd4305",
+    "scene_id": "701d880e8dc6b545",
+    "plan_id": "b655535fbafc16b7",
+    "requested_time": 8.0,
+    "recorded_time": 7.969999999999344,
+    "gl_backend": "egl",
+    "recording": "measured_state_playback",
+    "geometry": "visual",
+    "width": 640,
+    "height": 480,
+    "file": "run-1-t-8.png"
+  },
+  {
+    "run_id": "24e6999ba76a",
+    "scene_id": "701d880e8dc6b545",
+    "plan_id": "b655535fbafc16b7",
+    "requested_time": 8.0,
+    "recorded_time": 3.619999999999823,
+    "gl_backend": "egl",
+    "recording": "measured_state_playback",
+    "geometry": "visual",
+    "width": 640,
+    "height": 480,
+    "file": "run-2-t-8.png"
+  }
+]

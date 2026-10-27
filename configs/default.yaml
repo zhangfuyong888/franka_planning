@@ -1,0 +1,13 @@
+# SI 单位：s / rad / m。单位阵关节度量，不做关节绕回。
+budget: 2.0                 # 规划墙钟秒
+max_time: 25.0              # 物理仿真秒
+dt: 0.01                   # 控制周期秒；物理步长 0.002 s
+edge_step: 0.025            # 关节欧氏插值距离 rad
+validation_step: 0.0125     # 更细的规划后复核 rad
+planning_margin: 0.012      # 规划有效性余量 m
+safe_distance: 0.025        # 环境距离 QP 下限 m；非邻接自碰 .015 m
+monitor_distance: 0.003     # 实际状态监测停止距离 m
+activation_distance: 0.10   # 环境距离激活 m
+velocity: 0.5              # 关节命令速度 rad/s
+acceleration: 1.5          # 关节命令加速度 rad/s²
+backend: auto              # 未装 OMPL 时明确使用 motion-planners

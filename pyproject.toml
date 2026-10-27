@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panda-motion-planning-lab"
+version = "0.2.1"
+description = "Franka Panda 路径规划、局部避障与真实动力学教学实验"
+requires-python = ">=3.10,<3.13"
+dependencies = ["mujoco==3.3.7", "mink==0.0.13", "numpy==1.26.4", "scipy==1.15.2", "osqp==1.0.4", "PyYAML==6.0.3", "matplotlib==3.10.7"]
+[project.optional-dependencies]
+ompl = ["ompl==2.0.1"]
+test = ["pytest==8.4.2"]
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+panda_planning = ["assets/**/*", "configs/*.yaml", "_vendor/**/LICENSE", "_vendor/**/provenance.json"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

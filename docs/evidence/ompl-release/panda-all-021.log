@@ -1,0 +1,40 @@
+.............................................                            [100%]
+=============================== warnings summary ===============================
+tests/test_control_local.py: 4 warnings
+tests/test_failures.py: 11 warnings
+tests/test_geometry.py: 4 warnings
+tests/test_ompl_lifecycle.py: 2 warnings
+tests/test_planning.py: 7 warnings
+tests/test_render.py: 2 warnings
+  /home/zfy/franka_planning/panda-motion-planning-lab/.venv/lib/python3.10/site-packages/qpsolvers/conversions/ensure_sparse_matrices.py:28: SparseConversionWarning: Converted matrix 'P' of your problem to scipy.sparse.csc_matrix to pass it to solver 'osqp'; for best performance, build your matrix as a csc_matrix directly.
+    warnings.warn(
+
+tests/test_control_local.py: 4 warnings
+tests/test_failures.py: 11 warnings
+tests/test_geometry.py: 4 warnings
+tests/test_ompl_lifecycle.py: 2 warnings
+tests/test_planning.py: 7 warnings
+tests/test_render.py: 2 warnings
+  /home/zfy/franka_planning/panda-motion-planning-lab/.venv/lib/python3.10/site-packages/qpsolvers/conversions/ensure_sparse_matrices.py:28: SparseConversionWarning: Converted matrix 'G' of your problem to scipy.sparse.csc_matrix to pass it to solver 'osqp'; for best performance, build your matrix as a csc_matrix directly.
+    warnings.warn(
+
+tests/test_control_local.py: 12 warnings
+tests/test_failures.py: 39 warnings
+tests/test_geometry.py: 47 warnings
+tests/test_ompl_lifecycle.py: 6 warnings
+tests/test_planning.py: 21 warnings
+tests/test_render.py: 6 warnings
+  /home/zfy/franka_planning/panda-motion-planning-lab/.venv/lib/python3.10/site-packages/osqp/interface.py:405: PendingDeprecationWarning: The default value of raise_error will change to True in the future.
+    warnings.warn(
+
+tests/test_control_local.py: 12 warnings
+tests/test_failures.py: 39 warnings
+tests/test_geometry.py: 47 warnings
+tests/test_ompl_lifecycle.py: 6 warnings
+tests/test_planning.py: 21 warnings
+tests/test_render.py: 6 warnings
+  /home/zfy/franka_planning/panda-motion-planning-lab/.venv/lib/python3.10/site-packages/osqp/interface.py:73: PendingDeprecationWarning: Direct access to osqp status values will be deprecated. Please use the SolverStatus enum instead.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+45 passed, 322 warnings in 19.03s

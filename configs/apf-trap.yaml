@@ -1,0 +1,3 @@
+# 在 local_trap 中观察真实停滞：只调整 APF 自身增益，控制/限制不变。
+apf_gain: 0.0002
+max_time: 20.0

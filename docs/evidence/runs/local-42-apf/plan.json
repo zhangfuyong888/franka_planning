@@ -1,0 +1,18 @@
+{
+  "status": "not_requested",
+  "raw_path": [],
+  "processed_path": [],
+  "elapsed": 0.0,
+  "first_solution": null,
+  "stats": {
+    "backend": "none",
+    "scene_id": "701d880e8dc6b545",
+    "raw_cost": null,
+    "processed_cost": null,
+    "postprocess_time": 0.0,
+    "plan_min_distance": null
+  },
+  "trace": [],
+  "reason": "",
+  "plan_id": "b655535fbafc16b7"
+}

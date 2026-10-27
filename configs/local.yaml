@@ -1,0 +1,6 @@
+max_time: 20.0
+activation_distance: 0.10
+safe_distance: 0.025
+alpha: 5.0                # 1/s；距离误差转成允许接近速度
+apf_gain: 0.00002          # 等效速度修正系数；势函数见教程
+regularization: 0.001

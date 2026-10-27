@@ -1,0 +1,1 @@
+{"status":"passed","plot_calls":28,"groups":2,"verification":"Node VM 数据与交互检查，未验证浏览器/WebGL显示"}

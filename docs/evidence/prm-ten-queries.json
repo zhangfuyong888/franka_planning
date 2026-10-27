@@ -1,0 +1,942 @@
+[
+  {
+    "query": 0,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.7,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 42,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.2697594290002598,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 14,
+      "edges": 46,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 1.0575468540009751,
+      "query_time": 0.2121909749985207,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 0,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.7,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 42,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.2575143540016143,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 14,
+      "edges": 46,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 1.0486693089987966,
+      "query_time": 0.20882980600072187,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 1,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.6799999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 43,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.3035272819979582,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 11,
+      "edges": 48,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 1.0173697539976274,
+      "query_time": 0.28614102299980004,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 1,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.6799999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 43,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 0.07563862000097288,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 15,
+      "edges": 51,
+      "trace_overhead": 0.0,
+      "prm_mode": "warm",
+      "build_time": 3.940003807656467e-07,
+      "query_time": 0.07562626800063299,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 2,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.6599999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 44,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.3812740379980823,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 13,
+      "edges": 48,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 1.053050231999805,
+      "query_time": 0.3282056539974292,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 2,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.6599999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 44,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 0.07735182100077509,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 16,
+      "edges": 57,
+      "trace_overhead": 0.0,
+      "prm_mode": "warm",
+      "build_time": 3.980021574534476e-07,
+      "query_time": 0.07733883099717787,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 3,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.6399999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 45,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.385486247996596,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 13,
+      "edges": 56,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 1.1320124010017025,
+      "query_time": 0.25345751799977734,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 3,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.6399999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 45,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 0.07640245400034473,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 17,
+      "edges": 64,
+      "trace_overhead": 0.0,
+      "prm_mode": "warm",
+      "build_time": 4.120010999031365e-07,
+      "query_time": 0.07638969400068163,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 4,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.62,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 46,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.3794954650002182,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 13,
+      "edges": 54,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 1.0652107979985885,
+      "query_time": 0.31426945999919553,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 4,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.62,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.20228817476150565,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 46,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2773935156924378,
+        0.23381207460818015,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 0.07184322100147256,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 18,
+      "edges": 72,
+      "trace_overhead": 0.0,
+      "prm_mode": "warm",
+      "build_time": 3.770001058001071e-07,
+      "query_time": 0.07182905299850972,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 5,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.7,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.18228817476150566,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 47,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2820139685875304,
+        0.2282178132887599,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.2620047579985112,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 12,
+      "edges": 49,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 0.9838335320018814,
+      "query_time": 0.2781506629980868,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 5,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.7,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.18228817476150566,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 47,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2820139685875304,
+        0.2282178132887599,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 0.12781735899989144,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 19,
+      "edges": 79,
+      "trace_overhead": 0.0,
+      "prm_mode": "warm",
+      "build_time": 4.1100065573118627e-07,
+      "query_time": 0.1278043960010109,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 6,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.6799999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.18228817476150566,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 48,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2820139685875304,
+        0.2282178132887599,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.4944305690005422,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 13,
+      "edges": 53,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 1.2012661709995882,
+      "query_time": 0.29314703500131145,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 6,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.6799999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.18228817476150566,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 48,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2820139685875304,
+        0.2282178132887599,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 0.00029393500153673813,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 19,
+      "edges": 79,
+      "trace_overhead": 0.0,
+      "prm_mode": "warm",
+      "build_time": 3.720015229191631e-07,
+      "query_time": 0.00028110600032960065,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 7,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.6599999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.18228817476150566,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 49,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2820139685875304,
+        0.2282178132887599,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.3074267330011935,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 13,
+      "edges": 46,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 1.0690786190025392,
+      "query_time": 0.23833232800097903,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 7,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.6599999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.18228817476150566,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 49,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2820139685875304,
+        0.2282178132887599,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 0.0003093980012636166,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 19,
+      "edges": 79,
+      "trace_overhead": 0.0,
+      "prm_mode": "warm",
+      "build_time": 4.1100065573118627e-07,
+      "query_time": 0.00029470400113496,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 8,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.6399999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.18228817476150566,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 50,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2820139685875304,
+        0.2282178132887599,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.3072539970016805,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 14,
+      "edges": 54,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 0.9798824329991476,
+      "query_time": 0.32735398300064844,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 8,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.6399999999999999,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.18228817476150566,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 50,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2820139685875304,
+        0.2282178132887599,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 0.00028170000223326497,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 19,
+      "edges": 79,
+      "trace_overhead": 0.0,
+      "prm_mode": "warm",
+      "build_time": 3.889981599058956e-07,
+      "query_time": 0.00026911900204140693,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 9,
+    "group": "cold",
+    "request": {
+      "q_start": [
+        -0.62,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.18228817476150566,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 51,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2820139685875304,
+        0.2282178132887599,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 1.301637430999108,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 13,
+      "edges": 50,
+      "trace_overhead": 0.0,
+      "prm_mode": "cold",
+      "build_time": 1.0592577299976256,
+      "query_time": 0.24236319000192452,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  },
+  {
+    "query": 9,
+    "group": "warm",
+    "request": {
+      "q_start": [
+        -0.62,
+        -0.6,
+        0.0,
+        -2.0,
+        0.0,
+        1.5,
+        0.785398
+      ],
+      "q_goal": [
+        0.18228817476150566,
+        -0.6495583976690692,
+        0.3083595385764706,
+        -1.9983396995431688,
+        0.19248456079773624,
+        1.4822335653059333,
+        0.9831838244378321
+      ],
+      "budget": 1.5,
+      "seed": 51,
+      "scene_id": "85689d3a8cccc5c5",
+      "target": [
+        0.2820139685875304,
+        0.2282178132887599,
+        0.586471591501654
+      ]
+    },
+    "status": "success",
+    "validated": true,
+    "elapsed": 0.0002684840001165867,
+    "stats": {
+      "backend": "motion-planners (vendored, patched)",
+      "implementation": "prm",
+      "nodes": 19,
+      "edges": 79,
+      "trace_overhead": 0.0,
+      "prm_mode": "warm",
+      "build_time": 5.109977792017162e-07,
+      "query_time": 0.0002568259988038335,
+      "budget": 1.5,
+      "range_note": "fallback 使用上游连接扩展；extension_range 仅 OMPL 生效"
+    }
+  }
+]

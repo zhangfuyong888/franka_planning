@@ -1,0 +1,38 @@
+{
+  "random-reference": {
+    "scene_id": "b6f7e2b356fdbe93",
+    "plan_id": "93631f7355b3886b",
+    "planning_success": true,
+    "execution_success": true,
+    "planning_min_distance": 0.013674661130296473,
+    "final_error": 0.0003854615681556519,
+    "validation_step": 0.0125
+  },
+  "rrt-star-empty": {
+    "scene_id": "b5f325d181c7c0e0",
+    "plan_id": "92f27ac57b8d786f",
+    "planning_success": true,
+    "execution_success": true,
+    "planning_min_distance": 0.01646691442394932,
+    "final_error": 0.00028401036982152514,
+    "validation_step": 0.0125
+  },
+  "elbow-reference": {
+    "scene_id": "63e8aa78c1b3a39e",
+    "plan_id": "2b7eb3d6e2c9e9c5",
+    "planning_success": true,
+    "execution_success": true,
+    "planning_min_distance": 0.015307839378620347,
+    "final_error": 0.0038971558012288834,
+    "validation_step": 0.0125
+  },
+  "narrow-reference": {
+    "scene_id": "4ef24805987eef69",
+    "plan_id": "27cd853f97c82333",
+    "planning_success": true,
+    "execution_success": true,
+    "planning_min_distance": 0.016095198172937586,
+    "final_error": 0.0001947006979072449,
+    "validation_step": 0.0125
+  }
+}

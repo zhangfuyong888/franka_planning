@@ -1,0 +1,7 @@
+{
+  "original_samples": 363,
+  "saved_samples": 74,
+  "source_interval": 0.01,
+  "display_stride": 5,
+  "note": "仅展示存档抽样；summary 指标来自完整遥测"
+}
